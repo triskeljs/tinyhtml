@@ -1,0 +1,32 @@
+{
+  "name": "@trisquel/tinyhtml",
+  "version": "0.1.1",
+  "description": "HTML minifier",
+  "main": "tinyhtml.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kiltjs/trisquel-tinyhtml.git"
+  },
+  "keywords": [
+    "html",
+    "tinyhtml",
+    "minifier"
+  ],
+  "author": "Jesús Germade <jesus@germade.es>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kiltjs/trisquel-tinyhtml/issues"
+  },
+  "homepage": "https://github.com/kiltjs/trisquel-tinyhtml#readme",
+  "devDependencies": {
+    "eslint": "5.0.1",
+    "mocha": "5.2.0"
+  },
+  "dependencies": {
+    "@trisquel/parser": "0.1.2",
+    "@trisquel/stringify": "0.1.1"
+  }
+}
