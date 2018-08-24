@@ -4,7 +4,7 @@
 Compact, reliable and customizable HTML minifier.
 
 [![ᴋɪʟᴛ ᴊs](https://jesus.germade.es/assets/images/badge-kiltjs.svg)](https://github.com/kiltjs)
-[![npm](https://img.shields.io/npm/v/@trisquel/tinyhtml.svg?maxAge=2592000)](https://www.npmjs.com/package/@trisquel/tinyhtml)
+[![npm](https://img.shields.io/npm/v/@trisquel/tinyhtml.svg)](https://www.npmjs.com/package/@trisquel/tinyhtml)
 [![Build Status](https://travis-ci.org/kiltjs/trisquel-tinyhtml.svg?branch=master)](https://travis-ci.org/kiltjs/trisquel-tinyhtml)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
