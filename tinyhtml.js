@@ -1,6 +1,6 @@
 
-var parseHTML = require('@trisquel/parser'),
-    stringifyNodes = require('@trisquel/stringify');
+var parseHTML = require('@triskel/parser'),
+    stringifyNodes = require('@triskel/stringify');
 
 function tinyhtml (html, options) {
   return stringifyNodes( parseHTML(html, options), options );

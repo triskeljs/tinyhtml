@@ -1,27 +1,28 @@
 
-# @trisquel/tinyhtml
+# @triskel/tinyhtml
 
 Compact, reliable and customizable HTML minifier.
 
 [![ᴋɪʟᴛ ᴊs](https://jesus.germade.es/assets/images/badge-kiltjs.svg)](https://github.com/kiltjs)
-[![npm](https://img.shields.io/npm/v/@trisquel/tinyhtml.svg)](https://www.npmjs.com/package/@trisquel/tinyhtml)
-[![Build Status](https://travis-ci.org/kiltjs/trisquel-tinyhtml.svg?branch=master)](https://travis-ci.org/kiltjs/trisquel-tinyhtml)
+[![npm](https://img.shields.io/npm/v/@triskel/tinyhtml.svg)](https://www.npmjs.com/package/@triskel/tinyhtml)
+[![Build Status](https://travis-ci.org/triskeljs/tinyhtml.svg?branch=master)](https://travis-ci.org/triskeljs/tinyhtml)
+[![dependencies Status](https://david-dm.org/triskeljs/tinyhtml/status.svg)](https://david-dm.org/triskeljs/tinyhtml)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 
 ### Installation
 
 ``` sh
-npm i -D @trisquel/tinyhtml
+npm i -D @triskel/tinyhtml
 
-# npm install --save-dev @trisquel/tinyhtml
+# npm install --save-dev @triskel/tinyhtml
 ```
 
 ### Usage
 
 ``` js
 
-var tinyHTML = require('@trisquel/tinyhtml');
+var tinyHTML = require('@triskel/tinyhtml');
 
 tinyHTML(`
 <body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-4 ns-subject page-Wikipedia_Portada rootpage-Wikipedia_Portada skin-vector action-view">    <div id="mw-page-base" class="noprint"></div>
