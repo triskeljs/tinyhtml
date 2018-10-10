@@ -27,6 +27,6 @@
   },
   "dependencies": {
     "@triskel/parser": "1.0.9",
-    "@triskel/stringify": "1.0.7"
+    "@triskel/stringify": "1.0.8"
   }
 }
