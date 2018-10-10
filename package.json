@@ -1,6 +1,6 @@
 {
   "name": "@triskel/tinyhtml",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "HTML minifier",
   "main": "tinyhtml.js",
   "scripts": {
