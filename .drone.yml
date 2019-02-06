@@ -1,0 +1,9 @@
+
+kind: pipeline
+name: node10
+
+steps:
+- name: test
+  image: node:10
+  commands:
+  - make test

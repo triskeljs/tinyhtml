@@ -26,7 +26,7 @@
     "mocha": "5.2.0"
   },
   "dependencies": {
-    "@triskel/parser": "1.0.12",
+    "@triskel/parser": "1.1.0",
     "@triskel/stringify": "1.0.11"
   }
 }
