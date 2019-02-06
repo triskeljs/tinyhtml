@@ -5,7 +5,7 @@ Compact, reliable and customizable HTML minifier.
 
 [![ᴋɪʟᴛ ᴊs](https://jesus.germade.es/assets/images/badge-kiltjs.svg)](https://github.com/kiltjs)
 [![npm](https://img.shields.io/npm/v/@triskel/tinyhtml.svg)](https://www.npmjs.com/package/@triskel/tinyhtml)
-[![Build Status](https://travis-ci.org/triskeljs/tinyhtml.svg?branch=master)](https://travis-ci.org/triskeljs/tinyhtml)
+[![Build Status](https://cloud.drone.io/api/badges/triskeljs/tinyhtml/status.svg)](https://cloud.drone.io/triskeljs/tinyhtml)
 [![dependencies Status](https://david-dm.org/triskeljs/tinyhtml/status.svg)](https://david-dm.org/triskeljs/tinyhtml)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
