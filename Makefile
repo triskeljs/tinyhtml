@@ -3,6 +3,10 @@ git_branch := $(shell git rev-parse --abbrev-ref HEAD)
 
 .PHONY: test release
 
+ifndef NPM_VERSION
+  export NPM_VERSION=patch
+endif
+
 install:
 	npm install
 
@@ -14,8 +18,9 @@ test: install eslint
 	@$(shell npm bin)/mocha tests/*-tests.js
 
 npm.publish:
+	echo "building ${NPM_VERSION}"
 	git pull --tags
-	npm version patch
+	npm version ${NPM_VERSION}
 	git push origin $(git_branch) && git push --tags
 	npm publish --access public
 
